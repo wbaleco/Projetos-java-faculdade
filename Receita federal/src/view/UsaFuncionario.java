@@ -22,7 +22,7 @@ public class UsaFuncionario {
 		String u, v, t, z;
 		int x;
 		z = JOptionPane.showInputDialog(
-				"Digite 1 se o contribuinte for uma pessoa física \n Digite 2 se for pessoa jjurídica");
+				"Digite 1 se o contribuinte for uma pessoa física \n Digite 2 se for pessoa jurídica");
 		x = Integer.parseInt(z);
 		if (z.length() == 1) {
 			switch (x) {
