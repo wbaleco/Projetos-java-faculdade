@@ -54,7 +54,7 @@ public class UsaFuncionario {
 				System.out.println("Cartão identificação: " + funcionario.getCartao() );
 
 			default:
-				JOptionPane.showMessageDialog(null, "Opção inválida");
+				
 				break;
 			}
 		}
